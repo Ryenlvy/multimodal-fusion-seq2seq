@@ -8,7 +8,6 @@ This project implements a multimodal fusion sequence prediction model designed t
 
 - Multimodal data fusion (Image, Point Cloud, Radar)
 - Sequence-to-sequence prediction architecture
-- Memory-optimized design for large-scale data processing
 - Full pipeline support for training, testing, and data preparation
 
 ## Installation
@@ -98,7 +97,7 @@ This project employs various memory optimization strategies to handle large-scal
 1. Dynamic batch size adjustment
 2. Gradient accumulation
 3. Mixed precision training
-4. Memory caching management
+4. Memory caching management  
 5. Optimized number of worker processes
 
 ## TODO List
@@ -108,19 +107,19 @@ This project employs various memory optimization strategies to handle large-scal
 - [ ] Data augmentation
 ## Citation
 
-If you use this project in your research, please cite:
+If you use this project in your research, please cite:  
 
 ```
 @misc{multimodal-fusion-seq2seq,
   author = {Ryenlvy},
   title = {Multimodal Fusion Sequence-to-Sequence Model},
-  year = {2023},
+  year = {2025},  
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/Ryenlvy/multimodal-fusion-seq2seq}}
+  howpublished = {\url{https://github.com/Ryenlvy/multimodal-fusion-seq2seq}}    
 }
 ```
 
 ## License
 
-MIT
+Apache 2.0 License
