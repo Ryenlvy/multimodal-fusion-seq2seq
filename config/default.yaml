@@ -1,0 +1,24 @@
+training:
+  num_epochs: 50
+  batch_size: 2
+  learning_rate: 0.001
+  patience: 10
+  warmup_epochs: 5
+  num_workers: 2
+
+data:
+  train_csv: 'prepared_data/train.csv'
+  val_csv: 'prepared_data/test.csv'
+  base_path: './data/scenario34'
+  num_points: 256
+  radar_points: 64
+  
+model:
+  num_beams: 65
+  fused_dim: 128
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.2
+  beam_embedding_dim: 32
+  seq_out_len: 13
+  teacher_forcing_ratio: 0.5 
