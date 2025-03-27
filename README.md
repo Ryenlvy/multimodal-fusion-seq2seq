@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project implements a multimodal fusion sequence prediction model designed to process and integrate image, point cloud, and radar data for sequence prediction. The model follows an encoder-decoder architecture and utilizes a GRU network for sequence processing, making it suitable for beam prediction tasks in autonomous driving scenarios.
+This project implements a multimodal fusion sequence prediction model designed to process and integrate image, point cloud, and radar data for sequence prediction.
+ The model follows an encoder-decoder architecture and utilizes a GRU network for sequence processing, making it suitable for beam prediction tasks in autonomous driving scenarios.
 
 ## Features
 
@@ -89,10 +90,11 @@ The project implements a multimodal fusion sequence prediction model, consisting
    - Uses a GRU network to generate output sequences
    - Supports teacher forcing training
 
+![model](img/model.png)                                            
 
 ## Memory Optimization
 
-This project employs various memory optimization strategies to handle large-scale multimodal data efficiently:
+This project employs various memory optimization strategies to handle large-scale multimodal data efficiently:                                                                                                                            
 
 1. Dynamic batch size adjustment
 2. Gradient accumulation
